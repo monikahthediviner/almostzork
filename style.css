@@ -1,1 +1,20 @@
+body {
+  background-color: black;
+  font-family: 'Atari Classic', monospace;
+  font-size: 24px
+  font-weight: bold
+}
 
+h1 {
+  color: white;
+  font-family: 'Atari Classic', monospace;
+  font-size: 24px
+  font-weight: bold
+}
+
+p {
+    color: white;
+  font-family: 'Atari Classic', monospace;
+  font-size: 24px
+  font-weight: bold
+}
