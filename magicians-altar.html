@@ -2,12 +2,40 @@
 <html>
 <head>
     <title>the magician's altar</title>
+    body {
+    background-color: black
+    font-family: 'Atari Classic', monospace;
+    font-size: 24px
+    font-weight: bold
+    align: center
+    }
 </head>
 <body>
   <p>You find yourself in a ring of trees with nothing but an altar in the middle. The alta has two items resting, one on either side and an inscription carved into the middle of the stone.</p>
   <p>The inscription reads:</p>
   <blockquot>
     "in this uncharted realm lies a blank canvas of boundless potential found within worlds of both shadow. Only one path may you choose, only one item may you grasp. Choose you Hermes Scroll or Pythia's Bite?"
-  </blockquot>
+  </blockquote>
+      <p>On the altar you see a pomegranate and a scroll.</p>
+      <p>What would you like to choose? Type your response:</p>
+      <input type="text" id="userInput" placeholder="Type your choice here...">
+      <button oneclick="processUserChoice()">Submit</button>
+      <p id="response"></p>
+
+      <script>
+          function processUserChoice() {
+              var userInput = document.getElementById("userInput").value;
+              var response = "";
+              // Implement logic based on user choice
+              if (userInput.toLowerCase() === "hermes scroll") {
+                  response = "You've chosen the Scroll of Hermes filled to the brim with feats of action and logic.";
+              } else if (userInput.toLowerCase() === "pythias bite") {
+                  response = "You've chosen the Pythia's Bite. The forbidden fruit of unforgettable knowlege shrouded in mystery.";
+              } else {
+                  response = "I don't understand that choice.";
+              }
+              document.getElementById("response").innerHTML = response;
+          }
+      </script>
 </body>
 </html>
