@@ -1,13 +1,5 @@
 <!DOCTYPE html>
 <html>
-<style>
-  body {
-      background-color: black;
-      font-family: 'Atari Classic', monospace;
-      font-size: 24px
-      font-weight: bold
-    }
-</style>
 <head>
   <title>The Celestial Clearing</title>
 </head>
