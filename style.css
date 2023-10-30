@@ -12,11 +12,6 @@ body {
 }
 
 h1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   background-color: black;
   color: white;
   font-family: 'Atari Classic', monospace;
@@ -26,11 +21,6 @@ h1 {
 }
 
 p {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   background-color: black;
   color: white;
   font-family: 'Atari Classic', monospace;
@@ -39,11 +29,6 @@ p {
   text-align: center;
 }
 blockquote {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   background-color: black;
   color: white;
   font-family: 'Atari Classic', monospace;
