@@ -17,6 +17,7 @@ h1 {
   font-family: 'Atari Classic', monospace;
   font-size: 40px
   font-weight: bold
+  text-align: center;
 }
 
 p {
@@ -25,6 +26,7 @@ p {
   font-family: 'Atari Classic', monospace;
   font-size: 40px
   font-weight: bold
+  text-align: center;
 }
 blockquote {
   background-color: black;
@@ -32,4 +34,5 @@ blockquote {
   font-family: 'Atari Classic', monospace;
   font-size: 40px
   font-weight: bold
+  text-align: center;
 }
