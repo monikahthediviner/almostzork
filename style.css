@@ -1,4 +1,8 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh
   background-color: black;
   align: center
   font-family: 'Atari Classic', monospace;
@@ -18,6 +22,15 @@ h1 {
 }
 
 p {
+  background-color: black;
+  align: center
+  color: white;
+  font-family: 'Atari Classic', monospace;
+  font-size: 40px
+  font-weight: bold
+  text-align: center
+}
+blockquote {
   background-color: black;
   align: center
   color: white;
