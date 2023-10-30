@@ -4,38 +4,30 @@ body {
   align-items: center;
   height: 100vh
   background-color: black;
-  align: center
   font-family: 'Atari Classic', monospace;
   font-size: 40px
   font-weight: bold
-  text-align: center
 }
 
 h1 {
   background-color: black;
-  align: center
   color: white;
   font-family: 'Atari Classic', monospace;
   font-size: 40px
   font-weight: bold
-  text-align: center
 }
 
 p {
   background-color: black;
-  align: center
   color: white;
   font-family: 'Atari Classic', monospace;
   font-size: 40px
   font-weight: bold
-  text-align: center
 }
 blockquote {
   background-color: black;
-  align: center
   color: white;
   font-family: 'Atari Classic', monospace;
   font-size: 40px
   font-weight: bold
-  text-align: center
 }
